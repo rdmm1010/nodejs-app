@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: rdmm1010/nodejs-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+
